@@ -36,6 +36,6 @@ const App = () => {
             {!isLoggedIn ? <Auth /> : <Layout />}
         </div>
     );
-}
+};
 
 export default App;

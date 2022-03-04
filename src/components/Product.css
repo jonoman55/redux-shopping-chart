@@ -7,6 +7,7 @@
   justify-items: center;
   flex-wrap: wrap;
 }
+
 button {
   margin-top: 25px;
   margin-bottom: auto;
@@ -16,6 +17,7 @@ button {
   cursor: pointer;
   background-color: rgba(21, 26, 42, 0.787);
 }
+
 .card {
   width: 250px;
   height: 250px;
@@ -26,6 +28,7 @@ button {
   justify-content: center;
   box-shadow: 5px 5px 10px #ccc;
 }
+
 .card img {
   width: 90%;
   height: 40%;

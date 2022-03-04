@@ -1,15 +1,18 @@
 ul {
   list-style-type: none;
 }
+
 li {
   padding: 10px;
 }
+
 .cartIcon h3 {
   border: 1px solid #ccc;
   border-radius: 20px;
   padding: 10px;
   cursor: pointer;
 }
+
 .cart-container {
   border: 1px solid black;
   border-radius: 10px;
@@ -31,6 +34,7 @@ li {
   background: #2f3c7e;
   color: #fbeaeb;
 }
+
 .cart-actions {
   color: white;
   font-size: 20px;
