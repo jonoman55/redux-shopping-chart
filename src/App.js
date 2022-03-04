@@ -8,7 +8,7 @@ import { fetchData, sendCartData } from "./store/cartActions";
 import "./App.css";
 
 let isFirstRender = true;
-function App() {
+const App = () => {
     const dispatch = useDispatch();
     const cart = useSelector(state => state.cart);
     const notification = useSelector(state => state.ui.notification);
