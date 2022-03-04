@@ -35,14 +35,12 @@ export const sendCartData = (cart) => {
             })
         );
         const sendRequest = async () => {
-            // Send state as Sending request
             const res = await fetch(`${process.env.REACT_APP_FIREBASE_URI}/cartItems.json`, {
-                method: "PUT",
+                method: 'PUT',
                 body: JSON.stringify(cart),
             });
             // eslint-disable-next-line
             const data = await res.json();
-            // Send state as Request is successful
             dispatch(
                 uiActions.showNotification({
                     open: true,

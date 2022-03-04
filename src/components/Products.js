@@ -40,23 +40,21 @@ const DUMMY_PRODUCTS = [
     },
 ];
 
-const Products = () => {
-    return (
-        <div>
-            <ul className="products-container">
-                {DUMMY_PRODUCTS.map((product, index) => (
-                    <li key={index}>
-                        <Product
-                            id={product.id}
-                            name={product.name}
-                            imgURL={product.imgURL}
-                            price={product.price}
-                        />
-                    </li>
-                ))}
-            </ul>
-        </div>
-    );
-};
+const Products = () => (
+    <div>
+        <ul className="products-container">
+            {DUMMY_PRODUCTS.map((product, index) => (
+                <li key={index}>
+                    <Product
+                        id={product.id}
+                        name={product.name}
+                        imgURL={product.imgURL}
+                        price={product.price}
+                    />
+                </li>
+            ))}
+        </ul>
+    </div>
+);
 
 export default Products;

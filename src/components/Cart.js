@@ -6,7 +6,6 @@ import "./Cart.css";
 
 const Cart = () => {
     const quantity = useSelector((state) => state.cart.totalQuantity);
-    console.log(quantity);
     const dispatch = useDispatch();
     const showCart = () => {
         dispatch(cartActions.setShowCart());
